@@ -23,10 +23,11 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
 public class Jukebox implements Runnable {
 
     public void run() {
-
+    	
 		// 1. Find an mp3 on your computer or on the Internet.
 		// 2. Create a Song object for that mp3
-
+    	new Song("Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp3");
+    	
 		// 3. Play the Song
 
 		/*
