@@ -25,6 +25,8 @@ public class netflix {
 		net.printMovies();
 		System.out.println(net.getBestMovie());
 		System.out.println(net.getMovie(2));
+		net.sortMoviesByRating();
+		fast.compareTo(ferris);
 
 	}
 
